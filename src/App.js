@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect, useState} from "react";
-import Quote from "./somponents/quote";
+import Quote from "./components/quote";
 
 function App() {
     const generateRandomNumber = () => Math.floor(Math.random() * data.length);
